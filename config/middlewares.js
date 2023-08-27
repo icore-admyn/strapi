@@ -1,4 +1,5 @@
-module.exports = [
+module.exports = ({ env }) => [
+  { resolve: './src/middlewares/admin-redirect' },
   'strapi::errors',
   'strapi::security',
   'strapi::cors',
