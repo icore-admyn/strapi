@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "ctas",
+  "info": {
+    "singularName": "cta",
+    "pluralName": "ctas",
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cta": {
+      "displayName": "CTA",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "titleBlue": {
+      "type": "string"
+    }
+  }
+}
