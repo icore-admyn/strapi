@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "admyns",
+  "info": {
+    "singularName": "admyn",
+    "pluralName": "admyns",
+    "displayName": "Admyn"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
