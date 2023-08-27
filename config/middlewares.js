@@ -1,5 +1,4 @@
 module.exports = ({ env }) => [
-  { resolve: './src/middlewares/admin-redirect' },
   'strapi::errors',
   'strapi::security',
   'strapi::cors',
@@ -10,4 +9,25 @@ module.exports = ({ env }) => [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  { resolve: './src/middlewares/admin-redirect' },
+  {
+    name: 'strapi::security',
+    config: {
+      contentSecurityPolicy: {
+        useDefaults: true,
+        directives: {
+          'connect-src': ["'self'", 'https:'],
+          'img-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
+          'media-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'market-assets.strapi.io',
+            'res.cloudinary.com',
+          ],
+          upgradeInsecureRequests: null,
+        },
+      },
+    },
+  },
 ];
