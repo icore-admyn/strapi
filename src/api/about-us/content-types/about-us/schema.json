@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -16,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.hero"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.cards"
     }
   }
 }

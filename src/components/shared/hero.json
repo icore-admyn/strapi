@@ -24,12 +24,6 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.buttons"
-    },
-    "cards": {
-      "displayName": "cards",
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.cards"
     }
   }
 }
