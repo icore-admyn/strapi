@@ -1,18 +1,15 @@
 {
-  "kind": "collectionType",
-  "collectionName": "resources",
+  "collectionName": "components_homepage_section_1s",
   "info": {
-    "singularName": "resource",
-    "pluralName": "resources",
-    "displayName": "Resources",
+    "displayName": "Section 1",
     "description": ""
   },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
+  "options": {},
   "attributes": {
     "title": {
+      "type": "string"
+    },
+    "titleBlue": {
       "type": "string"
     },
     "description": {
@@ -22,11 +19,11 @@
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
-    "sections": {
-      "displayName": "Sections",
+    "cards": {
+      "displayName": "Cards",
       "type": "component",
       "repeatable": true,
-      "component": "resources.sections"
+      "component": "homepage.cards"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_homepage_section_2s",
+  "info": {
+    "displayName": "Section 2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleBlue": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "usps": {
+      "displayName": "USPs",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.us-ps"
+    }
+  }
+}
