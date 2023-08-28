@@ -27,6 +27,9 @@
       "type": "component",
       "repeatable": true,
       "component": "resources.sections"
+    },
+    "slug": {
+      "type": "uid"
     }
   }
 }

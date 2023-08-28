@@ -1,5 +1,4 @@
 module.exports = ({ env }) => ({
-    // ...
     upload: {
       config: {
         provider: 'cloudinary',
@@ -15,5 +14,24 @@ module.exports = ({ env }) => ({
         },
       },
     },
-    // ...
+    menus: {
+        config: {
+          layouts: {
+            menuItem: {
+              link: [
+                {
+                  input: {
+                    label: 'Parent Menu',
+                    name: 'parentMenu',
+                    type: 'text',
+                  },
+                  grid: {
+                    col: 6,
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
   });
