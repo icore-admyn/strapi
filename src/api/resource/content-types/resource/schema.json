@@ -30,6 +30,9 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "cards": {
+      "type": "string"
     }
   }
 }
