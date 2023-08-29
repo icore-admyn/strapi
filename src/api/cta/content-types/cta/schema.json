@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "ctas",
+  "info": {
+    "singularName": "cta",
+    "pluralName": "ctas",
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ctas": {
+      "displayName": "CTA",
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.cta"
+    }
+  }
+}

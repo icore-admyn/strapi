@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_payment_methods_payment_methods",
+  "info": {
+    "displayName": "Payment Method"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "comingSoon": {
+      "type": "boolean"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

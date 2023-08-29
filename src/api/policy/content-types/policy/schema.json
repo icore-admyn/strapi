@@ -1,29 +1,29 @@
 {
   "kind": "collectionType",
-  "collectionName": "faqs",
+  "collectionName": "policies",
   "info": {
-    "singularName": "faq",
-    "pluralName": "faqs",
-    "displayName": "FAQ",
-    "description": ""
+    "singularName": "policy",
+    "pluralName": "policies",
+    "displayName": "Policies"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "question": {
+    "title": {
       "type": "string"
     },
-    "isPriority": {
-      "type": "boolean"
-    },
-    "response": {
+    "body": {
       "type": "customField",
       "options": {
         "preset": "toolbar"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

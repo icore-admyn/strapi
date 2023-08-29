@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_permisionless_payments_section_1s",
+  "info": {
+    "displayName": "Section 1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.us-ps"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "payment_methods",
+  "info": {
+    "singularName": "payment-method",
+    "pluralName": "payment-methods",
+    "displayName": "Payment Methods"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paymentMethods": {
+      "displayName": "Payment Method",
+      "type": "component",
+      "repeatable": true,
+      "component": "payment-methods.payment-method"
+    }
+  }
+}

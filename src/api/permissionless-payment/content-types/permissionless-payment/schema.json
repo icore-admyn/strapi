@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "permissionless_payments",
+  "info": {
+    "singularName": "permissionless-payment",
+    "pluralName": "permissionless-payments",
+    "displayName": "Permissionless Payments",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "section1": {
+      "displayName": "Section 1",
+      "type": "component",
+      "repeatable": false,
+      "component": "permisionless-payments.section-1"
+    }
+  }
+}
