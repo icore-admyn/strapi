@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_payment_methods_payment_methods",
+  "info": {
+    "displayName": "Payment Methods"
+  },
+  "options": {},
+  "attributes": {
+    "paymentMethod": {
+      "type": "component",
+      "repeatable": true,
+      "component": "payment-methods.payment-method"
+    }
+  }
+}

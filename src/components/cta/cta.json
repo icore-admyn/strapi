@@ -21,6 +21,9 @@
     },
     "isPrimary": {
       "type": "boolean"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

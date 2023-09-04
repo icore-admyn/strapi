@@ -8,15 +8,28 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
     "ctas": {
       "displayName": "CTA",
       "type": "component",
       "repeatable": true,
       "component": "cta.cta"
+    },
+    "titleBlue": {
+      "type": "string"
     }
   }
 }

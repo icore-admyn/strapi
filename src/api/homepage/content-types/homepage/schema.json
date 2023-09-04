@@ -33,6 +33,12 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage.section-2"
+    },
+    "paymentMethods": {
+      "displayName": "Payment Methods",
+      "type": "component",
+      "repeatable": false,
+      "component": "payment-methods.payment-methods"
     }
   }
 }
