@@ -20,6 +20,9 @@
     },
     "response": {
       "type": "text"
+    },
+    "video": {
+      "type": "string"
     }
   }
 }
